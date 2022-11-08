@@ -1,3 +1,6 @@
+@import url('https://fonts.cdnfonts.com/css/proxima-nova-2');
+@import url('https://fonts.cdnfonts.com/css/futura-pt');
+
 body {
     background-color: #fcfcfc;
     color:#575757;
@@ -10,6 +13,7 @@ a {
     text-decoration: none;
     color:#999;
     margin-right:3rem;
+    font-family: 'Futura PT', sans-serif;
 
 }
 a:hover {
@@ -17,7 +21,7 @@ a:hover {
     text-decoration: none;
 }
 h1 {
-    font-family: Oswald,arial,sans-serif;
+    font-family: 'Proxima Nova', sans-serif;
 }
 
 .row {
