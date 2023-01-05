@@ -2,27 +2,7 @@
 @import url('https://fonts.cdnfonts.com/css/futura-pt');
 
 
-/* typewriter  */ 
 
-.typewriter {
-    animation: typewriter 4s step(40) 1s 1 normal both , 
-    blinkTextCursor 500ms steps(40) infinite normal;
-}
-
-@keyframes typewriter{
-    from {
-        width:0;
-    }
-    to {
-        width: 16em;
-    }
-}
-
-@keyframes blinkTextCursor {
-    from {
-        border-r
-    }
-}
 
 .loader_bg{
     position: fixed;
