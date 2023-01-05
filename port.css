@@ -6,7 +6,7 @@ body {
     color:#575757;
     max-width: 1200px;
     margin: 10px auto;
-    padding: 75px;
+    padding: 75px 75px 15px 75px;
     font-family: "proxima-nova";
 }
 a {
