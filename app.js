@@ -43,7 +43,7 @@ sr.reveal('.about-row',{delay:5500})
 sr.reveal('.my-heading',{delay:5500})
 sr.reveal('.link-container',{delay:5500})
 
-sr.reveal('.experience',{delay:1500})
+sr.reveal('.experience',{delay:1000})
 sr.reveal('.about-row',{delay:5500})
 
 sr.reveal('.about-row',{origin:'left'})
