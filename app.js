@@ -13,7 +13,9 @@ let summary = document.querySelector('.summary');
 let htmlSummaryText = ` <p class="about" style="font-family: 'Proxima Nova', sans-serif; font-size:18px;"></p>`
 summary.innerHTML+= htmlSummaryText;
 
-let summaryTextValue = `Currently taking a gap year since I'm doing a credit transfer from my China campus to an Australia campus. I'm taking computer science as my major and currently , I'm learning web development and mobile development to enhance my software development skills. I was born in 2002, and I was born and raised in Jakarta , Indonesia .`
+let summaryTextValue = `Currently taking a gap year since I'm doing a credit transfer from my China campus to an Australia campus. 
+I'm a young and passionate programmer & currently seeking opportunities to further enhance my technical and personal skills through internship programs
+/ hackathon . You can reach me at stephanuswilfrid@gmail.com .`
 
 let summaryText = document.querySelector(".about");
 summaryText.innerHTML = '';
