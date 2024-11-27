@@ -842,7 +842,7 @@ main {
 }
 
 .filter-select {
-  background: #bfeaf5;
+  background: #5bc0f8;
   color: white;
   display: flex;
   justify-content: space-between;
@@ -1579,7 +1579,7 @@ textarea.form-input::-webkit-resizer {
     border-radius: 0 20px;
     padding: 0 20px;
     box-shadow: none;
-    opacity:0.9;
+    opacity: 0.9;
   }
 
   .navbar-list {
