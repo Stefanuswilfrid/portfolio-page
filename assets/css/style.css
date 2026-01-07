@@ -367,7 +367,7 @@ main {
   position: absolute;
   inset: 1px;
   border-radius: inherit;
-  background: #91d8e4;
+  background: rgba(91, 192, 248, 0.70);
   transition: var(--transition-1);
   z-index: -1;
 }
@@ -1615,6 +1615,26 @@ textarea.form-input::-webkit-resizer {
   .project-list {
     grid-template-columns: repeat(3, 1fr);
   }
+
+  /* Experience gallery: keep it 2 columns on desktop */
+  .experience-project-list {
+    grid-template-columns: repeat(2, minmax(0, 360px));
+  }
+}
+
+/* Experience gallery polish (used inside the Journey timeline) */
+.experience-project-list {
+  gap: 20px;
+}
+
+.experience-project-list .project-img {
+  height: 220px;
+}
+
+.experience-project-list .project-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 /**
